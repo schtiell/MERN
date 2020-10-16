@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import HolaMundo, { Adios } from "./components/HolaMundo"
+import HolaMundo, { Adios } from "./components/HolaMundo";
+import Saludar from "./components/Saludar";
 
 function App() {
   return (
@@ -13,14 +14,7 @@ function App() {
         </p>
         <HolaMundo />
         <Adios />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Saludar name="Joaquin Sayago" edad="34"/>
       </header>
     </div>
   );

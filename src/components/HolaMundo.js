@@ -3,7 +3,6 @@ import React from "react";
 //El nombre de la funcion debe ser igual al nombre del componente
 //Debe iniciar en mayusculas
 export default function HolaMundo(){
-
     //return solo puede retornar un objeto
     //el div, contiene otros elementos dentro pero al final es un solo objeto div
     //Se puede utilizar fragment si no se quiere usar el <div>....</div>, <> ... </>
