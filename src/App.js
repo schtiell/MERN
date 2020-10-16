@@ -14,7 +14,8 @@ function App() {
         </p>
         <HolaMundo />
         <Adios />
-        <Saludar name="Joaquin Sayago" edad="34"/>
+        <Saludar name="Joaquin Sayago" edad="35" />
+        <Saludar name="Yamilet Castelan" edad="30" />
       </header>
     </div>
   );
