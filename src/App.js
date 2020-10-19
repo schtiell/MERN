@@ -4,12 +4,18 @@ import './App.css';
 import HolaMundo, { Adios } from "./components/HolaMundo";
 import Saludar from "./components/Saludar";
 import SaludoConstantes from "./components/SaludoConstantes";
+import SaludoConstantesObjeto from "./components/SaludoConstantesObjeto";
 
 function App() {
 
-  //Constantes con JSX
-  const nombre = "Valeria Sayago";
-  const edad = 11;
+  const nombre = "Joaquin Sayago";
+  const edad = 35;
+
+  const user ={
+    user: "Lourdes V",
+    color: "verde",
+    direccion: "xalapa ver"
+  };
 
   return (
     <div className="App">
@@ -28,8 +34,11 @@ function App() {
         <Saludar name="Yamilet Castelan" edad="30" />
 
         {/*Props definiendo constantes... */}
+        <SaludoConstantes name={nombre} age={edad}/>
 
-        <SaludoConstantes name={nombre} age={edad} />
+        {/*Props definiendo constantes... */}
+        <SaludoConstantesObjeto info={user} />
+
 
       </header>
     </div>
